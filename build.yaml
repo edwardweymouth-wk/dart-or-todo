@@ -9,6 +9,7 @@ targets:
             - "web/**"
       build_web_compilers|entrypoint:
         generate_for:
+          - "web/**/**.dart"
           - web/main.dart
         release_options:
           compiler: dart2js
